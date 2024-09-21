@@ -1,0 +1,1 @@
+text-inactive: #919191

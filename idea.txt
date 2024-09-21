@@ -1,0 +1,37 @@
+cO_Okie Clicker
+
+Cookie Clicker Clone
+
+- Load Data / New Data
+	-> Input username dan password
+	-> Read / write local storage
+	-> Password encrypt
+- Gameplay 
+	-> Click cookie sebanyak mungkin
+	-> Ada store biar bisa auto generate cookie
+	-> Ada achievement
+- Building [bakal dicoba 5 dulu]
+	-> Cursor [auto click]
+	-> Grandma [generate cookie] => mau random nama sama age jadi per grandma nya kalau dihover nanti ada detail singkat
+	-> Farm
+	-> Mine
+	-> Factory
+- Ada frenzy time -> per 1 menit / 2 menit bakal ada golden cookie kalau diclick nanti bakal 7x CpS (cookie per second) selama 77 detik 
+
+- Bakal save data ke localStorage per 30 detik
+- Load data
+
+Misc
+-> Perhitungan CpS dan price upgrade building nya
+Detailnya: https://cookieclicker.fandom.com/wiki/Building
+
+-> Ada animasi hujan cookie kayak game aslinya [pakai JS]
+-> Mungkin ada animasi susu kayak di game nya
+-> Animasi cookienya besar kecil kalau diclick / hover
+-> Mungkin ada stats
+
+- Ada perhitungan ketika web diclose (pake waktu per save), lalu ketika login lagi dihitung berapa lama waktu diclose -> total cookie * (CpS * waktu diclose) [jadi waktu close seperti gamenya masih jalan]
+
+Demo: https://orteil.dashnet.org/cookieclicker/
+	
+

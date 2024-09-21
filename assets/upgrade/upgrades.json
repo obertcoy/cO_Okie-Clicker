@@ -1,0 +1,166 @@
+{
+  "upgrades": [
+    {
+      "type": "Click",
+      "typeID": 1,
+      "name": "Plastic mouse",
+      "desc": "Clicking gains +1% of your CpS.",
+      "flavor": "\"Slightly squeaky.\"",
+      "cost": 50000,
+      "image": "../assets/upgrade/click/click-1.png"
+    },
+    {
+      "type": "Click",
+      "typeID": 2,
+      "name": "Iron mouse",
+      "desc": "Clicking gains +1% of your CpS.",
+      "flavor": "\"Click like it's 1,349!\"",
+      "cost": 5000000,
+      "image": "../assets/upgrade/click/click-2.png"
+    },
+    {
+      "type": "Click",
+      "typeID": 3,
+      "name": "Titanium mouse",
+      "desc": "Clicking gains +1% of your CpS.",
+      "flavor": "\"Heavy, but powerful.\"",
+      "cost": 500000000,
+      "image": "../assets/upgrade/click/click-3.png"
+    },
+    {
+      "type": "Cursor",
+      "typeID": 1,
+      "name": "Reinforced index finger",
+      "desc": "The cursors are twice as efficient.",
+      "flavor": "\"prod prod\"",
+      "cost": 100,
+      "image": "../assets/upgrade/cursor/cursor-1.png"
+    },
+    {
+      "type": "Cursor",
+      "typeID": 2,
+      "name": "Carpal tunnel prevention cream",
+      "desc": "The cursors are twice as efficient.",
+      "flavor": "\"it... it hurts to click...\"",
+      "cost": 500,
+      "image": "../assets/upgrade/cursor/cursor-2.png"
+    },
+    {
+      "type": "Cursor",
+      "typeID": 3,
+      "name": "Ambidextrous",
+      "desc": "The cursors are twice as efficient.",
+      "flavor": "\"Look ma, both hands!\"",
+      "cost": 10000,
+      "image": "../assets/upgrade/cursor/cursor-3.png"
+    },
+    {
+      "type": "Grandma",
+      "typeID": 1,
+      "name": "Forwards from grandma",
+      "desc": "Grandmas are twice as efficient.",
+      "flavor": "\"RE:RE:thought you'd get a kick out of this ;))\"",
+      "cost": 1000,
+      "image": "../assets/upgrade/grandma/grandma-1.png"
+    },
+    {
+      "type": "Grandma",
+      "typeID": 2,
+      "name": "Steel-plated rolling pins",
+      "desc": "Grandmas are twice as efficient.",
+      "flavor": "\"Just what you kneaded.\"",
+      "cost": 5000,
+      "image": "../assets/upgrade/grandma/grandma-2.png"
+    },
+    {
+      "type": "Grandma",
+      "typeID": 3,
+      "name": "Lubricated dentures",
+      "desc": "Grandmas are twice as efficient.",
+      "flavor": "\"squish\"",
+      "cost": 50000,
+      "image": "../assets/upgrade/grandma/grandma-3.png"
+    },
+    {
+      "type": "Farm",
+      "typeID": 1,
+      "name": "Cheap hoes",
+      "desc": "Farms are twice as efficient.",
+      "flavor": "\"Rake in the dough!\"",
+      "cost": 11000,
+      "image": "../assets/upgrade/farm/farm-1.png"
+    },
+    {
+      "type": "Farm",
+      "typeID": 2,
+      "name": "Fertilizer",
+      "desc": "Farms are twice as efficient.",
+      "flavor": "\"It's chocolate, I swear.\"",
+      "cost": 55000,
+      "image": "../assets/upgrade/farm/farm-2.png"
+    },
+    {
+      "type": "Farm",
+      "typeID": 3,
+      "name": "Cookie trees",
+      "desc": "Farms are twice as efficient.",
+      "flavor": "\"A relative of the breadfruit.\"",
+      "cost": 550000,
+      "image": "../assets/upgrade/farm/farm-3.png"
+    },
+    {
+      "type": "Mine",
+      "typeID": 1,
+      "name": "Sugar gas",
+      "desc": "Mines are twice as efficient.",
+      "flavor": "\"A pink, volatile gas, found in the depths of some chocolate caves.\"",
+      "cost": 120000,
+      "image": "../assets/upgrade/mine/mine-1.png"
+    },
+    {
+      "type": "Mine",
+      "typeID": 2,
+      "name": "Megadrill",
+      "desc": "Mines are twice as efficient.",
+      "flavor": "\"You're in deep.\"",
+      "cost": 600000,
+      "image": "../assets/upgrade/mine/mine-2.png"
+    },
+    {
+      "type": "Mine",
+      "typeID": 3,
+      "name": "Ultradrill",
+      "desc": "Mines are twice as efficient.",
+      "flavor": "\"Finally caved in?\"",
+      "cost": 6000000,
+      "image": "../assets/upgrade/mine/mine-3.png"
+    },
+    {
+      "type": "Factory",
+      "typeID": 1,
+      "name": "Sturdier conveyor belts",
+      "desc": "Factories are twice as efficient.",
+      "flavor": "\"You're going places.\"",
+      "cost": 1300000,
+      "image": "../assets/upgrade/factory/factory-1.png"
+    },
+    {
+      "type": "Factory",
+      "typeID": 2,
+      "name": "Berrylium factory",
+      "desc": "Factories are twice as efficient.",
+      "flavor": "\"Cheaper, healthier workforce.\"",
+      "cost": 6500000,
+      "image": "../assets/upgrade/factory/factory-2.png"
+    },
+    {
+      "type": "Factory",
+      "typeID": 3,
+      "name": "Blueberrylium factory",
+      "desc": "Factories are twice as efficient.",
+      "flavor": "\"Slackers will be terminated.\"",
+      "cost": 65000000,
+      "image": "../assets/upgrade/factory/factory-3.png"
+    }
+  ]
+}

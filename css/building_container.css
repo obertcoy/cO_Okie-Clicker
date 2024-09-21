@@ -1,0 +1,151 @@
+.building-panel-container{
+    display: flex;
+    height: 17.5%;
+    width: 100%;
+    justify-content: space-between;
+    color: var(--text-secondary);
+}
+
+.left-panel-container{
+
+    display: flex;
+    width: 16.5%;
+    height: 100%;
+    flex-direction: column;
+    
+}
+
+.left-panel{
+
+    display: flex;
+    height: 50%;
+    width: var(--panel-size);
+    background-image: url("/assets/utils/panelMenuLeftInactive.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-panel-container{
+
+    display: flex;
+    width: 16.5%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+.right-panel{
+
+    display: flex;
+    height: 50%;
+    width: var(--panel-size);
+    background-image: url("/assets/utils/panelMenuRightInactive.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.building-gap{
+    height: 5%;
+    width: 100%;
+    background-image: url("/assets/utils/roundedPanelBG.png");
+}
+
+#bot-left-panel:hover{
+    display: flex;
+    height: 50%;
+    width: var(--panel-size);
+    background-image: url("/assets/utils/panelMenuLeftActive.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+
+#building-container{
+
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    overflow-y: auto;
+    box-shadow: 0px 2px 16px 4px rgba(0, 0, 0, 0.7);
+
+}
+
+.building-subcontainer{
+
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 8rem;
+    background-image: url("/assets/building/background/grandmaBackground.png");
+    background-repeat: repeat-x;
+    overflow: hidden;
+}
+
+.building-element{
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    z-index: 1;
+    object-fit: contain;
+    pointer-events: all;
+}
+
+.building-element:hover{
+    animation: wiggle 1.5s linear infinite;
+}
+
+
+#grandma-info{
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.6);
+    z-index: 10;
+    pointer-events: none;
+    font-size: small;
+    pointer-events: none;
+}
+
+.grandma:hover{
+    animation: grandmaMove 0.3s infinite;
+    z-index: 2;
+}
+
+@keyframes grandmaMove {
+    0%,20% {
+        transform: translate(-1px, -1px); 
+    }
+    40% {
+        transform: translate(1px, -1px);
+    }
+    60% {
+        transform: translate(-1px, 1px); 
+    }
+    80%, 100% {
+        transform: translate(1px, 1px);
+    }
+}
+
+@keyframes wiggle {
+    0%, 100% {
+      transform: rotateZ(0deg);
+    }
+    10%, 30%, 50%, 70%, 90% {
+      transform: rotateZ(-5deg);
+    }
+    20%, 40%, 60%, 80% {
+      transform: rotateZ(5deg);
+    }
+  }

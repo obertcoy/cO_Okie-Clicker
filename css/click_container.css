@@ -1,0 +1,322 @@
+#user-name-container{
+
+    display: flex;
+    position: absolute;
+    width: max-content;
+    padding: 0.2rem 3rem;
+    color: var(--text-secondary);
+    top: 7.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    z-index: 200;
+    cursor: pointer;
+}
+
+#user-name-container:hover{
+    color: whitesmoke;
+    text-shadow : 0 0 10px white; 
+}
+
+
+#user-cookie-container{
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    color: whitesmoke;
+    padding: 0.5rem 0;
+    top: 17.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    word-wrap: break-word;
+    z-index: 200;
+
+}
+
+#cookie-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    top: -5%
+  }
+  
+  #cookie-click-container {
+    
+    position: relative;
+    width: 55%;
+    height: 100%;
+    z-index: 100;
+    transform-origin: center center;
+    transition: all 0.1s ease-in-out;
+  }
+
+  #cookie-click {
+    width: 100%;
+    height: auto;
+    -webkit-user-drag: none;
+  }
+
+  #cookie-click-container > .cookie-number {
+
+    position: absolute;
+    font-size: 22px;
+    font-weight: 300;
+    color: whitesmoke;
+    background: none;
+    user-select: none;
+    z-index: 150;
+    font-family: var(--main-font);
+
+  }
+
+  #cookie-click-container:hover{
+    animation: miniBounce 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+  }
+
+  #cookie-click-container:active{
+    transform: scale(0.95);
+  }
+
+
+  #cookie-shine {
+    position: absolute;
+    z-index: 5;
+    width: 110%;
+    height: auto;
+    opacity: 50%;
+    animation: rotateShine 20s linear infinite; 
+    -webkit-user-drag: none;
+  
+  }
+
+  #cursor-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    height: 120%; 
+    transform: translate(-50%, -50%);
+    transform-origin: center center;
+    
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    border-radius: 50%;
+    overflow-block: auto;
+    z-index: 6;
+
+    animation: rotateCursorContainer 36s linear infinite;
+  }
+  
+  .cursor {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    bottom: 0; 
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 6;
+  }
+
+  .cursor:nth-child(n + 51){
+    display: none;
+  }
+
+  #milk{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("/assets/click/milkSoy.png");
+    background-repeat: repeat-x;
+    bottom: -80%;
+    border: none;
+    animation: milkAnimation 20s ease-in-out infinite;
+  }
+ 
+  
+  @keyframes rotateShine {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes milkAnimation {
+    0% {
+      background-position-x: 0px;
+    }
+    100% {
+        background-position-x: 1000px;
+    }
+  }
+  
+  @keyframes miniBounce
+{
+	0%,100%{scale: 1.05;}
+    25%{scale: 1.075;}
+    50%{scale: 1.05;}
+    75%{scale: 1.075;}
+}
+
+@keyframes rotateCursorContainer {
+  0% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+
+@keyframes cursorClick {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+      transform: translate(20px, 20px) scale(1.2); 
+  }
+}
+
+.cursor-click{
+  animation: cursorClick 1s ease-in-out;
+}
+  
+#change-name-overlay{
+
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5000;
+  align-items: center;
+  justify-content: center;
+}
+
+#change-name{
+
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  min-height: 17vh;
+  min-width: 18.5vw;
+  background-color: black;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid wheat;
+  border-radius: 3px;
+  outline-style: groove;
+  gap: 0.5rem;
+  padding: 0.25rem 0;
+}
+
+#change-name h4{
+  color: wheat;
+  
+}
+
+
+#change-name p{
+  color: whitesmoke;
+  font-size: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#change-name input{
+  width: 80%;
+  border-radius: 3px;
+  border: 2px solid wheat;
+  outline-style: groove;
+  outline-width: 3px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+#change-name-button-container{
+
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+#change-name button{
+
+  padding: 0.1rem 0.5rem;
+  border: 1px solid wheat;
+  border-radius: 3px;
+  outline-style: groove;
+  background-color: black;
+  cursor: pointer;
+}
+
+#change-name button:hover{
+
+  outline-width: 1px;
+  color: whitesmoke;
+}
+
+#change-name button span{
+
+  font-size: small;
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#change-name-close{
+  position: absolute;
+  top: 0;
+  right: 2%;
+  color: gainsboro;
+  font-size:  medium;
+  cursor: pointer;
+  padding: 0.25rem;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#change-name-close:hover{
+  color: white;
+  text-shadow: white 0 0 4px;
+}
+
+#cookie-shower-container {
+  display: flex;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.cookie-shower{
+  position: absolute;
+  object-fit: contain;
+  animation: fall 10s linear; 
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-100%);
+    opacity: 1;
+}
+50% {
+    opacity: 0.5;
+}
+100% {
+    transform: translateY(100%);
+    opacity: 0;
+}
+}

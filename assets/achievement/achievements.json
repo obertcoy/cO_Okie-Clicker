@@ -1,0 +1,194 @@
+{
+    "achievements": [
+      {
+        "type": "Bake",
+        "typeID": 1,
+        "name": "Wake and bake",
+        "desc": "Bake 1 cookie in one ascension",
+        "image": "../assets/achievement/bake/bake-1.png"
+      },
+      {
+        "type": "Bake",
+        "typeID": 2,
+        "name": "Making some dough",
+        "desc": "Bake 1,000 cookies in one ascension",
+        "image": "../assets/achievement/bake/bake-2.png"
+      },
+      {
+        "type": "Bake",
+        "typeID": 3,
+        "name": "So baked right now",
+        "desc": "Bake 100,000 cookies in one ascension",
+        "image": "../assets/achievement/bake/bake-3.png"
+      },
+      {
+        "type": "Bake",
+        "typeID": 4,
+        "name": "Fledgling bakery",
+        "desc": "Bake 1 million cookies in one ascension",
+        "image": "../assets/achievement/bake/bake-4.png"
+      },
+      {
+        "type": "Cps",
+        "typeID": 1,
+        "name": "Casual baking",
+        "desc": "Bake 1 cookie per second",
+        "image": "../assets/achievement/cps/cps-1.png"
+      },
+      {
+        "type": "Cps",
+        "typeID": 2,
+        "name": "Hardcore baking",
+        "desc": "Bake 10 cookies per second",
+        "image": "../assets/achievement/cps/cps-2.png"
+      },
+      {
+        "type": "Cps",
+        "typeID": 3,
+        "name": "Steady tasty stream",
+        "desc": "Bake 100 cookies per second",
+        "image": "../assets/achievement/cps/cps-3.png"
+      },
+      {
+        "type": "Cps",
+        "typeID": 4,
+        "name": "Cookie monster",
+        "desc": "Bake 1,000 cookies per second",
+        "image": "../assets/achievement/cps/cps-4.png"
+      },
+      {
+        "type": "Cps",
+        "typeID": 5,
+        "name": "Mass producer",
+        "desc": "Bake 10,000 cookies per second",
+        "image": "../assets/achievement/cps/cps-5.png"
+      },
+      {
+        "type": "Click",
+        "typeID": 1,
+        "name": "Clicktastic",
+        "desc": "Make 1,000 cookies from clicking",
+        "image": "../assets/achievement/click/click-1.png"
+      },
+      {
+        "type": "Click",
+        "typeID": 2,
+        "name": "Clickathlon",
+        "desc": "Make 100,000 cookies from clicking",
+        "image": "../assets/achievement/click/click-2.png"
+      },
+      {
+        "type": "Click",
+        "typeID": 3,
+        "name": "Clickolympics",
+        "desc": "Make 10 million cookies from clicking",
+        "image": "../assets/achievement/click/click-3.png"
+      },
+      {
+        "type": "Building",
+        "typeID": 1,
+        "name": "Click",
+        "desc": "Have 1 cursor",
+        "image": "../assets/achievement/building/cursor/cursor-1.png"
+      },
+      {
+        "type": "Building",
+        "typeID": 2,
+        "name": "Double-click",
+        "desc": "Have 2 cursors",
+        "image": "../assets/achievement/building/cursor/cursor-2.png"
+      },
+      {
+        "type": "Building",
+        "typeID": 3,
+        "name": "Mouse wheel",
+        "desc": "Have 50 cursors",
+        "image": "../assets/achievement/building/cursor/cursor-3.png"
+      },
+      {
+        "type": "Building",
+        "typeID": 1,
+        "name": "Grandma's cookies",
+        "desc": "Have 1 grandma",
+        "image": "../assets/achievement/building/grandma/grandma-1.png"
+      },
+      {
+        "type": "Building",
+        "typeID": 2,
+        "name": "Sloppy kisses",
+        "desc": "Have 50 grandmas",
+        "image": "../assets/achievement/building/grandma/grandma-2.png"
+      },
+      {
+        "type": "Building",
+        "typeID": 3,
+        "name": "Retirement home",
+        "desc": "Have 100 grandmas",
+        "image": "../assets/achievement/building/grandma/grandma-3.png"
+      },
+      {
+        "type": "Building",
+        "typeID": 1,
+        "name": "Bought the farm",
+        "desc": "Have 1 farm",
+        "image": "../assets/achievement/building/farm/farm-1.png"
+      },
+      {
+        "type": "Building",
+        "typeID": 2,
+        "name": "Reap what you sow",
+        "desc": "Have 50 farms",
+        "image": "../assets/achievement/building/farm/farm-2.png"
+      },
+      {
+        "type": "Building",
+        "typeID": 3,
+        "name": "Farm ill",
+        "desc": "Have 100 farms",
+        "image": "../assets/achievement/building/farm/farm-3.png"
+      },
+      {
+        "type": "Building",
+        "typeID": 1,
+        "name": "You know the drill",
+        "desc": "Have 1 mine",
+        "image": "../assets/achievement/building/mine/mine-1.png"
+      },
+      {
+        "type": "Building",
+        "typeID": 2,
+        "name": "Excavation site",
+        "desc": "Have 50 mines",
+        "image": "../assets/achievement/building/mine/mine-2.png"
+      },
+      {
+        "type": "Building",
+        "typeID": 3,
+        "name": "Hollow the planet",
+        "desc": "Have 100 mines",
+        "image": "../assets/achievement/building/mine/mine-3.png"
+      },
+      {
+        "type": "Building",
+        "typeID": 1,
+        "name": "Production chain",
+        "desc": "Have 1 factory",
+        "image": "../assets/achievement/building/factory/factory-1.png"
+      },
+      {
+        "type": "Building",
+        "typeID": 2,
+        "name": "Industrial revolution",
+        "desc": "Have 50 factories",
+        "image": "../assets/achievement/building/factory/factory-2.png"
+      },
+      {
+        "type": "Building",
+        "typeID": 3,
+        "name": "Global warming",
+        "desc": "Have 100 factories",
+        "image": "../assets/achievement/building/factory/factory-3.png"
+      }
+    ]
+  }
+  

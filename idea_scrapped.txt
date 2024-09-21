@@ -1,0 +1,28 @@
+PerabOOt
+
+= Web untuk jualan produk-produk perabotan
+
+Page
+- Landing (Buat promosi)
+  -> ada carousel
+  -> ada kek random buat diskon2 gitu (ada random time, kalo time abis dia ilang, ada random diskon price)
+- Produk yg dijual (kalo guest gaada tombol add to cart kalo udah login ada)
+  -> infinite scrolling
+  -> ada loading animation kek 5 detik (pake async + timeout)
+  -> data gak di tembak pake html, cuman distore di json terus di tampilin pake js
+- Login
+- Register (simpen localstorage (json))
+- navbar
+- cart page (localstorage)
+  -> ada loading (pake async + timeout)
+  -> data ditampilin pake js
+- Profile page (bisa ganti profile)
+
+
+
+~ middleware kalo gak login (localstorage kosong)
+~ bisa logout
+~ modal 
+
+
+
